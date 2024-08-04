@@ -41,7 +41,7 @@ if (response.status === 200) {
           <div className="absolute inset-0 flex justify-center items-center">
           </div>
           <div className="z-10">
-              <h5 className="text-xl font-bold text-black my-2">Let's connect</h5>
+              <h5 className="text-xl font-bold text-black my-2">Let&apos;s connect</h5>
               <p className="mb-4 max-w-md text-black">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
                   aut nostrum quod quas, optio excepturi repellat itaque praesentium

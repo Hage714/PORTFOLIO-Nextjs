@@ -10,16 +10,18 @@ const projectsData = [
     imgUrl: "/images/projects/tech3.jpg",
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    link: "https://example.com",
     tag: ["All", "Nextjs"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
   {
     id: 1,
     imgUrl: "/images/projects/tech4.jpg",
     title: "Project 2",
     description: "Donec vel ipsum vel nunc faucibus condimentum.",
-    link: "https://example.com",
     tag: ["All", "React"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
   {
     id: 1,
@@ -27,32 +29,36 @@ const projectsData = [
     title: "Project 3",
     description:
       "Nulla facilisi. Sed vulputate, mauris at consectetur finibus.",
-    link: "https://example.com",
     tag: ["All", "Nextjs"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
   {
     id: 4,
     imgUrl: "/images/projects/tech6.jpg",
     title: "Project 2",
     description: "Donec vel ipsum vel nunc faucibus condimentum.",
-    link: "https://example.com",
     tag: ["All", "React"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
   {
     id: 5,
     imgUrl: "/images/projects/tech7.jpg",
     title: "Project 2",
     description: "Donec vel ipsum vel nunc faucibus condimentum.",
-    link: "https://example.com",
     tag: ["All", "React"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
   {
     id: 6,
     imgUrl: "/images/projects/tech8.jpg",
     title: "Project 2",
     description: "Donec vel ipsum vel nunc faucibus condimentum.",
-    link: "https://example.com",
     tag: ["All", "React"],
+    gitUrl: "https://hage.com",
+    previewUrl: "https://hage.com",
   },
 ];
 
@@ -108,8 +114,9 @@ const ProjectsSection = () => {
               imgUrl={project.imgUrl}
               title={project.title}
               description={project.description}
-              link={project.link}
               tags={project} // this is an array of strings that will be rendered as tags in the ProjectCard component
+              gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}
