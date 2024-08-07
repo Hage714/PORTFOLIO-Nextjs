@@ -1,0 +1,23 @@
+/* styles.css */
+
+.menu {
+    display: block;
+}
+
+.navy{
+    border: 2px solid red;
+}
+
+.menu-hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-open {
+        display: block;
+    }
+}

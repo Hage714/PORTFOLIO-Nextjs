@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
+import Navbar from "./Navbar";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
@@ -81,6 +82,8 @@ const ProjectsSection = () => {
   }
 
   return (
+    <>
+    <Navbar />
     <section>
       <h2 className="text-black text-center text-3xl font-bold mb-4">
         My Projects
@@ -122,6 +125,7 @@ const ProjectsSection = () => {
         ))}
       </ul>
     </section>
+    </>
   );
 };
 
